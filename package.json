@@ -1,0 +1,46 @@
+{
+  "name": "cycle-log-driver",
+  "version": "0.1.0",
+  "description": "A simple logging driver for readable output in the console in CycleJS",
+  "main": "dist/log-driver.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tshelburne/cycle-log-driver"
+  },
+  "keywords": [
+    "cyclejs",
+    "cycle",
+    "log",
+    "logging"
+  ],
+  "author": {
+    "name": "Tim Shelburne",
+    "email": "shelburt02@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tshelburne/cycle-log-driver/issues"
+  },
+  "homepage": "https://github.com/tshelburne/cycle-log-driver",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "modules": "auto"
+        }
+      ]
+    ]
+  }
+}
