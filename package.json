@@ -1,6 +1,6 @@
 {
   "name": "cycle-log-driver",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple logging driver for readable output in the console in CycleJS",
   "main": "dist/log-driver.js",
   "scripts": {
